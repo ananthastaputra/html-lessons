@@ -5,14 +5,257 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .style1 {
-            background-color:aliceblue;
+        td {
+            border: 1px solid black;
+
         }
-     
+        .table-style{
+            border: 1px solid black;
+            background-color: darksalmon;
+            width: 100%;
+            margin-left: 10px;
+        }
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+            background-color:aqua;
+}
+        }
     </style>
+    
 </head>
 <body>
-    <div class="style1">Hello to this world</div>
+    <table class="table-style">
+   
+    <th>
+        <h3 class="center">
+            Request For New PAN Card Or/And Changes Or Correction in PAN Data
+            Fields marked with * (asterisk) are mandatory. . To avoid mistake(s), please refer guidelines and instructions .</h3>
+
+    </th>
+    <tr>
+        <td>
+
+        <b>citizen of india</b>
+        <input type="radio" id="no" name="gender" value="male">
+        <label for="male"> Yes </label>
+        <input type="radio" id="yes" name="gender" value="female">
+        <label for="female">No</label>
+
+        
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="text">Permenant Account Number</label>
+            <input type="alphabets" name="pan_number id="text">
+    </td></tr>
+    <tr>
+        <td>
+        <b>First Name</b>
+        
+        <input type="alphabets" name="name" >
+
+        </td>
+        <td>
+            Lastname
+            <input type="text">
+
+        </td>
+
+
+    </tr>
+    <tr><td>
+        Name as you would like it printed on the card
+    </td></tr>
+    <tr><td>
+        <input type="Name">
+    </td></tr>
+    <tr>
+        <td>
+        Father's name
+        <input type="text">
+        </td>
+        <td>
+            Lastname
+            <input type="text">
+
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            Gender
+            <input type="radio" id="yes">
+            <label for="yes"> Male</label>
+            <input type="radio">
+            <label for="yes"> Female</label>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Date Of Birth
+            <input type="date">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Adress for communication
+            <input type="radio">
+            <label for="office">office</label>
+            <input type="radio">
+            <label for="residence">residence</label>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+        Flat no/Door no/Block no
+        <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Name of Premises/Building/Village
+            <input type="text">
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Road/Street/Lane/Post Office
+            <input type="text">
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Area/Locality/Taluka/Sub-Division
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Town/City/District
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            State/Union Territory
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            PIN (Indicating PIN is mandatory)
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Country
+            <input type="text">
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            E-mail ID
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            In case of a citizen of India, then
+
+        </td>
+        <td>
+            <input type="radio">
+            <label for="aadhar">Aadhar</label>
+            <input type="radio">
+            <label for="EID">EID</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            AADHAAR number :
+            <input type="text">
+            In case AADHAAR number is provided,
+then proof of AADHAAR along with supporting documents is to be submitted to NSDL
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Verification
+        </td>
+    </tr>
+    <tr>
+        <td>
+            I/We <input type="text">  
+            ,the applicant,in the capacity of  
+            do hereby declare that what is stated above is true
+            to the best of my information and belief.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Place  
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Whether you wish to have?   
+            <input type="radio">
+            <label for="pan">Physical Pan Card</label>
+            <input type="radio">
+            <label for="E-PAN">E-Pan</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Upload Photo
+            <input type="file">
+        </td>
+        <td>
+            Upload Document
+            <input type="file">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            ALREADY UPLOADED PHOTO:
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            ALREADY UPLOADED SIGNATURE:
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            
+            ALREADY UPLOADED DOCUMENTS:
+            <input type="text">
+        </td>
+     </tr>
+     <tr>
+         <td>
+             <input type="submit" style="width :auto;position:relative">
+         </td>
+     </tr>
+
+
+
+
+    </table>
     
 </body>
 </html>
